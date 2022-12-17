@@ -1,0 +1,176 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background-image:url(../images/cabecera.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	color:#000000;
+	text-align:center;
+	margin:0;
+}
+#contenedor{
+	width:95%;
+	height:auto;
+	margin:auto;
+	}
+#cabecera{
+	width:100%;
+	height:150px;
+	background-image:url(../images/fnd_cabecera.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+#cont_izq{
+	float:left;
+	width:20%;
+	min-width:250px;
+	height:auto;
+	/*background-image:url(../images/fnd_left1.png);*/
+	}
+#cont_der{
+	float:right;
+	width:78%;
+	min-width:700px;
+	height:auto;
+	padding:20px 0% 15px 2%;
+}		
+#pie{
+	clear:both;
+	width:100%;
+	height:35px;
+	color:#003366;
+	background-image:url(../images/pie.jpg);
+	background-repeat:repeat-x;
+	padding:15px 0px 0px 0px ;
+	}
+hr { background-color:#333333; height:3px; }
+.titulo{
+    font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:#05264E;
+	margin-bottom:15px;
+	}
+.subtitulo2{
+    font-size:12px;
+	font-weight:bold;
+	}
+.subtitulo3{
+    font-size:12px;
+	}
+#color1{
+    background-color:#F9F9EF;
+	color:#000033;
+	padding:10px 10px 10px 10px;
+	}
+#color2{
+     color:#FFF;
+	 background-color:#28597A;
+	 padding:10px 10px 10px 10px;
+	}
+#color3{
+     color:#000033;
+	 background-color:#F9F9EF;
+	 height:25px;
+	}
+#color4{
+     color:#000000;
+	 background-color:#F7F4D4;
+	 height:25px;
+	}
+.resalt{
+    font-weight:bold;
+   }
+.link{
+     color:#000033;
+	 font-size:12px;
+	 font-weight:bold;
+	 text-decoration:underline;
+	 }
+.link:hover{
+	 text-decoration:none;
+	 }
+.link1{
+     color:#000000;
+	 text-align: left;
+	 font: normal 12px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+	 text-decoration: none;
+	 }
+A:hover{
+	text-decoration:underline;
+}
+/*************************************************/
+/*  ESTILOS MENU *********************************/       
+/*************************************************/
+.menu_tit{
+	width:250px;
+	height:auto; 
+	padding:15px 0px 15px 0px;
+	background-image:url(../images/menu_cab.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:#097BA8;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	color:#FFFFFF;
+	}
+.menu_contenedor{
+	width:235px;
+	height:auto;
+	padding:17px 0px 25px 15px; 
+	margin:0px 0px 5px 0px;
+	text-align:left;
+	font-weight:bold;
+	line-height:20px;
+	background-image:url(../images/menu_pie.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-color:#F1F8FE;
+	}
+A:link.B{
+	background: transparent url(../images/list-off.gif) left no-repeat;
+	padding-left: 13px;
+	text-align: left;
+	font: normal 13px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+	/*text-decoration: none;*/
+	color: #003366;
+}
+A:visited.B{
+	background: transparent url(../images/list-off.gif) left no-repeat;
+	padding-left: 13px;
+	text-align: left;
+	font: normal 13px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+	text-decoration:none;
+	color: #003366;
+}
+
+A:hover.B{
+	background: transparent url(../images/list-on.gif) left center no-repeat;
+	color: black;
+	text-decoration:none;
+}
+/*************************************************/
+/*  ESTILOS LOGIN *********************************/       
+/*************************************************/
+.txt_titulologin{
+    height:auto;
+	color:#FFF;
+	font-weight:bold;
+	font-style:italic;
+	font-size:15px;
+	padding:20px 10px 20px 10px;
+}
+#msg{
+   height:20px;
+   background: transparent url(../images/s_okay.png) left no-repeat;
+   vertical-align:middle;
+   /*background-color:#EEEEEE;*/
+   font-size:12px;
+   padding:4px 3px 0px 30px;
+   display:none;
+   text-align:left;
+}
+.msg_a{
+   color:#900; font-size:12px;
+}

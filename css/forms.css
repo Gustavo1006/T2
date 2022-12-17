@@ -1,0 +1,153 @@
+input {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+	background-color:#EEE;
+	border : 1px solid #666;
+	font-color: #003399;
+	cursor : hand;
+	padding:5px 5px 5px 5px;
+}
+input:hover{
+	background-color:#EFEDD2;
+	color:#000000;
+	font-weight:bold;
+}
+
+textarea {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+	background-color: #EBEBEB;
+	border : 1px solid #000000;
+	font-color: #ffffff;
+	cursor : hand;
+	padding:5px 5px 5px 5px;
+}
+textarea:hover {
+	font-weight:bold;
+}
+
+
+select {
+	font-family: Verdana;
+	font-size: 11px;
+	background-color:#EBEBEB;
+	border : 1px solid #000000;
+	cursor : hand;
+	padding:5px 5px 5px 5px;
+}
+select-over{
+	background-color:#ffffff;
+	cursor : hand;
+	font-weight:bold;
+}
+
+input.radioBoton1 {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 6px;
+	background-color: #f0f0f0;
+	border : 1px solid #f0f0f0;
+	
+}
+
+input.boton1 {
+	border:1px solid #40739C;
+	font-weight : bold;
+	cursor : pointer;
+	background-color:#0B4E78;
+	color:#FFF;
+	padding:8px 12px 8px 12px;
+	margin:0;
+	width:auto;
+	border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+}
+input.boton1:hover{
+	border:2px solid #7C96AB;
+	background-color:#8DB8E0;
+	color:#051D31;
+}
+select:hover{
+	background-color:  #ffffff;
+	
+}
+textarea:hover{
+	background-color:  #ffffff;
+}
+
+input.camposTexto {
+	width : 100%;
+}
+input.radioBoton {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+
+	/*border : 2px solid #e8b900;*/
+}
+
+
+input.botones_medianos {
+	height: auto;
+	border : 1px solid #003399;
+	width: 50px;
+	font-family: Verdana;
+	font-size: 10px;
+
+	font-weight : bold;
+	cursor : hand;
+}
+input.botones_medianos1 {
+	height: auto;
+	border : 1px solid #003399;
+	width: 90px;
+	font-family: Verdana;
+	font-size: 10px;
+	
+	font-color: #f0f0f0;
+	font-weight : bold;
+	cursor : hand;
+}
+
+input.botones-over {
+	border : 2px solid #8a1f37;
+	background-color:  #e8b900;
+}
+
+input.botones1 {
+	height: auto;
+	font-weight : bold;
+	cursor : hand;
+	font-size: 11px;
+	background-color: #595959;
+	border : 1px solid #C6B89B;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+input.botgraf{
+	height: auto;
+	font-weight : normal;
+	cursor : hand;
+	font-size: 10px;
+	background-color: #eeeeee;
+	color: #003366;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-left: 2px solid #FFFFFF;
+}
+
+.input1{
+    background-color:#003366;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:5px 5px 5px 5px;
+}
+.txt_form{
+    color:#000000;
+    font-size:11px;
+	padding-left:10px;
+}
